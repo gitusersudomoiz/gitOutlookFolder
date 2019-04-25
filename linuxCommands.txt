@@ -1,0 +1,28 @@
+Create a sudo user
+Login as root
+useradd sudomoiz
+provide other details
+---
+add user to the sudo group
+usermod -aG sudo sudomoiz
+---
+su -sudomoiz
+sudo whoami
+output - root
+-------
+install GIT
+sudo apt-get install git-core
+create a git user
+git config --user.name "gituser"
+git config --user.email "mmoiz297@outlook.com"
+git config --list (gives the list of users in GIT)
+----
+create GIT HUb account
+username in github : githubusersudomoiz
+password KaleemMoiz786$
+------
+push changes from local to remote rep
+git remote add origin https://github.com/gitusersudomoiz/gitOutlookFolder.git
+
+git push origin master
+
